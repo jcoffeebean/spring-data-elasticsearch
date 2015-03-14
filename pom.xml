@@ -6,6 +6,13 @@
     <artifactId>spring-data-elasticsearch</artifactId>
     <version>1.2.0.BUILD-SNAPSHOT</version>
 
+	<parent>
+		<groupId>org.springframework.data.build</groupId>
+		<artifactId>spring-data-parent</artifactId>
+		<version>1.6.0.BUILD-SNAPSHOT</version>
+		<relativePath>../spring-data-build/parent/pom.xml</relativePath>
+	</parent>
+	
     <name>Spring Data Elasticsearch</name>
     <description>Spring Data Implementation for Elasticsearch</description>
     <url>https://github.com/spring-projects/spring-data-elasticsearch</url>
